@@ -1,0 +1,12 @@
+/* App.css */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content {
+    flex: 1; /* Ensures content area grows to fill available space */
+    padding: 20px;
+  }
+  

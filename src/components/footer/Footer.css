@@ -1,0 +1,35 @@
+/* Glassmorphism effect for the footer */
+.glass-footer {
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px 10px 0 0; 
+    box-shadow: 0 -4px 30px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin-top: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.glass-footer:hover {
+    box-shadow: 0 -8px 40px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-2px); 
+}
+
+
+.glass-footer h6, .glass-footer p {
+    color: rgba(255, 255, 255, 0.9); 
+    transition: color 0.3s ease-in-out;
+}
+
+
+.glass-footer h6:hover, .glass-footer p:hover {
+    color: #ffeb3b; 
+}
+
+
+@media (max-width: 600px) {
+    .glass-footer {
+        padding: 10px;
+        border-radius: 0; 
+    }
+}
